@@ -1,0 +1,33 @@
+.team {
+    display: flex;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    background: #f0f0f0;
+    border-bottom: 4px solid #ccc;
+    justify-content: space-between;
+
+}
+
+.team__data {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.team__data input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.team__data input[type="checkbox"]:checked {
+    accent-color: #000;
+}
+
+.team__actions {
+    gap: 10px;
+    display: flex;
+}
+
+.team__actions button {
+    padding: 0 4px;
+}

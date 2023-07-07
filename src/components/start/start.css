@@ -1,0 +1,16 @@
+.start {
+    width: 30em;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.link--secondary{
+    display: flex;
+    color: #fff;
+    margin: 30px auto;
+    padding: .5em 1em;
+    background: #44f;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
